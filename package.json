@@ -1,9 +1,13 @@
+
 {
   "name": "aicj-searching",
   "version": "1.0.0",
   "description": "SEARCHING for AICJ desktop application",
   "main": "main.js",
-  "author": "AICJ",
+  "author": {
+    "name": "AICJ",
+    "email": "yo48koki2009@gmail.com"
+  },
   "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
@@ -16,7 +20,14 @@
   "build": {
     "appId": "org.aicj.searching",
     "productName": "SEARCHING for AICJ",
-    "linux": {"target": ["deb"], "category": "Education", "executableName": "aicj-searching"},
-    "files": ["main.js", "package.json"]
+    "linux": {
+      "target": ["deb"],
+      "category": "Education",
+      "executableName": "aicj-searching"
+    },
+    "files": [
+      "main.js",
+      "package.json"
+    ]
   }
 }
